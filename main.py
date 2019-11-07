@@ -36,8 +36,8 @@ def message(name):
 
 urls = (
     '/', Index,
-    '\\/hello\\/?', HelloController,
-    '\\/hello\\/([^\\/]+)\\/?', PersonalHelloController,
+    '/hello/?', HelloController,
+    '/hello/([^/]+)/?', PersonalHelloController,
 )
 
 if __name__ == '__main__':
