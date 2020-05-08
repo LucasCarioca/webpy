@@ -13,7 +13,7 @@ python -m venv env
 source ./env/bin/activate
 
 #install web.py
-pip3 install web.py==0.40
+pip install web.py==0.40
 ```
 
 ### Starting the app
